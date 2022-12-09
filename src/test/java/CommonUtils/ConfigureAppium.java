@@ -20,7 +20,7 @@ public class ConfigureAppium
 	@BeforeClass
 	public void ConfigureAppiumsetup() throws MalformedURLException
 	{
-		AppiumDriverLocalService service= new AppiumServiceBuilder()
+		 service= new AppiumServiceBuilder()
 				.withAppiumJS(new File("C:\\Users\\bharat\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
 				.withIPAddress("127.0.0.1")
 				.usingPort(4723)
