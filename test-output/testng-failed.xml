@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MobilebasicsTesting.GesturesLongPressAndALL">
+      <class name="MobilebasicsTesting.PortaitAndLandscapeMode">
         <methods>
+          <include name="portaritLandScape"/>
           <include name="ConfigureAppiumsetup"/>
           <include name="tearDown"/>
-          <include name="longPress"/>
         </methods>
-      </class> <!-- MobilebasicsTesting.GesturesLongPressAndALL -->
+      </class> <!-- MobilebasicsTesting.PortaitAndLandscapeMode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
