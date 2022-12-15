@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MobilebasicsTesting.PortaitAndLandscapeMode">
+      <class name="FrameWork1Ecommerce.TC3_AddTheProduct">
         <methods>
-          <include name="portaritLandScape"/>
+          <include name="addProductandAddtoCart"/>
           <include name="ConfigureAppiumsetup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- MobilebasicsTesting.PortaitAndLandscapeMode -->
+      </class> <!-- FrameWork1Ecommerce.TC3_AddTheProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
