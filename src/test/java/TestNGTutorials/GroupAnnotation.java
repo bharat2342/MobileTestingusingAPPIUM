@@ -2,12 +2,10 @@ package TestNGTutorials;
 
 import org.testng.annotations.Test;
 
-public class PriorityExampleCarLoan 
+public class GroupAnnotation 
 {
-	
-	
-	@Test
-	public void webCarLogin()
+	@Test(groups= {"Smoke"})
+	public void webGroup1()
 	{
 		
 		System.out.println("car login via Web");
@@ -26,6 +24,8 @@ public class PriorityExampleCarLoan
 		System.out.println("car login via API restAssured");
 		
 	}
+	
+	
 	
 
 }

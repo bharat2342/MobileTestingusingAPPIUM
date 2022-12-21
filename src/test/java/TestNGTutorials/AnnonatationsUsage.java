@@ -12,7 +12,13 @@ public class AnnonatationsUsage
 	}
 	
 	
-	
+	@Test(groups={"Smoke"})
+	public void demoSmoke()
+	{
+		System.out.println("SmokeDemoMustExecute");
+		
+	}
+
 	
 
 }
