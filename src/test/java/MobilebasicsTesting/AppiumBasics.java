@@ -1,5 +1,6 @@
 package MobilebasicsTesting;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -7,6 +8,8 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
 
 public class AppiumBasics {
 
@@ -21,14 +24,13 @@ public class AppiumBasics {
 		
 		//Install the app and Invoke the particular app
 		//under the app Api-demos will get clicked
-		
 		UiAutomator2Options capabilities= new UiAutomator2Options();
 		capabilities.setPlatformName("Bharat Emulator");
 		capabilities.setApp("C:\\Users\\bharat\\git\\repository\\MobileTestingUsingAPPIUM\\src\\test\\java\\Resources\\ApiDemos-debug.apk");
 		
 		AndroidDriver driver= new AndroidDriver(new URL("http://127.0.0.1:4723") ,capabilities);
 		driver.quit();
-
+		
 	}
 
 }
